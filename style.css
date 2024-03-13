@@ -1,0 +1,135 @@
+body{
+    background-image: url(WhatsApp\ Image\ 2024-03-12\ at\ 19.47.30_94d88919.jpg);
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+        font-family: "Swanky and Moo Moo";
+}
+
+.images{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    filter:drop-shadow(20px 16px 20px rgb(1, 102, 254)); 
+}
+.images:hover{
+    transform:rotateY(180deg);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    font-size: 30px;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.navbar li a{
+         transition: all 0.3s ease  0s;
+         text-decoration: none;
+         transition: 0.3s ease;
+         color: beige;
+    }
+.navbar li a:hover{
+    color: rgb(255, 115, 0);
+    text-decoration: underline;
+    filter: brightness(150%);
+    box-shadow: 0 0 px 0px rgba(255,255,255,0.7);
+}
+.hard{
+    padding-right:  900px;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.want1{
+    font-size: 100px;
+    transition: 0.3s ;
+}
+.want1:hover{
+    transition: 0.5s ease;
+    filter:drop-shadow(20px 16px 20px rgb(6, 201, 255))
+}
+
+button{
+    background-color: blue;
+    color: rgb(236, 236, 248);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(19, 172, 172);
+}
+.retro{
+    filter: grayscale(50%);
+    transition: transform 0.3s ease;
+}
+.retro:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px rgba(255,255,255,0.7);
+}
+.metin{
+    position: absolute;
+    bottom: 100px;
+ color: white;
+    padding:10px;
+}
+
+.lorm{
+    font-size: 15x;
+}
+.retro img{
+    width: 300px;
+    height: 200px;
+}
+i{
+    transition: transform 0.3s ease;   
+}
+i:hover{
+    transform: scale(1.1);
+    filter: brightness(150%);
+    box-shadow: 0 0 10px 5px rgba(255,255,255,0.7);
+}
+
+.mans{
+    transform: translateX(500px);
+    display: flex;
+}
+.retroo{
+  display: inline-block;
+    filter: grayscale(50%);
+    transition: transform 0.3s ease;
+}
+.retroo img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.retroo:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px rgba(255,255,255,0.7);
+}
+.lormm{
+    font-size: 15x;  
+    
+}
+.metn{ position: absolute;
+    bottom: 100px;
+ color: white;
+    padding:10px;
+    }
